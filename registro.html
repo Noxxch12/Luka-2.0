@@ -4,24 +4,33 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Registro</title>
-    <link rel="stylesheet" href="/assets/css/registro.css">
+    <link rel="stylesheet" href="assets/css/registro.css">
 </head>
 <body>
-    <div class="form-container">
-        <h2>Agregar usuario</h2>
-        <form action="index.php" method="POST">
-            <div class="input-group">
-                <label for="nombre">Nombre:</label>
-                <input type="text" name="nombre" required>
-            </div>
-            <div class="input-group">
-                <label for="correo">Correo:</label>
-                <input type="email" name="correo" required>
-            </div>
-            <div class="button-container">
-                <input type="submit" value="Enviar">
-            </div>
-        </form>
+    <div class="todo">
+        <div class="texto">
+            <h1>Agregar usuario</h2>
+        </div>
+        
+        <div class="form-container">
+            
+            <form action="index.php" method="POST">
+                <div class="imagen">
+                  <img class="imgl" src="images/logo.png" alt="">
+                </div>
+                <div class="input-group">
+                    <input type="text" name="nombre" required>
+                    <label for="">Nombre:</label>
+                </div>
+                <div class="input-group">
+                    <input type="email" name="correo" required>
+                    <label for="">Correo:</label>
+                </div>
+                <div class="button-container">
+                    <input type="submit" value="Entrar">
+                </div>
+            </form>
+        </div>
     </div>
 </body>
 
