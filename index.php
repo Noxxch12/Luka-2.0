@@ -19,7 +19,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $sql = "INSERT INTO usuarios (nombre, correo) VALUES ('$nombre', '$correo')";
 
     if ($conn->query($sql) === TRUE) {
-        header("Location: index.html");
+        header("Location: home.html");
         exit();
     } else {
         echo "Error: " . $sql . "<br>" . $conn->error;
