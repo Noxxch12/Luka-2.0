@@ -29,13 +29,17 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;}
 
+.img-small {
+  width: auto;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
 
+	
 .vismi{
 	display: flex;
 	flex-direction:column-reverse;
-}
-.cardvi{
-
 }
 
 body {
@@ -2977,7 +2981,7 @@ input, select, textarea {
 					display: block;
 					position: absolute;
 					top: 50%;
-					width: calc(50% - 6rem);
+					width: calc(50% - 12rem);
 					border-top: solid 2px;
 				}
 
